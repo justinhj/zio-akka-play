@@ -30,13 +30,7 @@ scalacOptions ++= Seq(
 
 javacOptions ++= Seq("-Xlint:unchecked", "-Xlint:deprecation", "-source", "1.7", "-target", "1.7")
 
-val CatsVersion = "2.0.0-M1"
-val CatsEffectVersion = "1.3.0"
-val MonixVersion = "3.0.0-M3"
-val ScalaZVersion = "7.3.0-M29"
 val ZIOVersion = "1.0.0-RC8-12"
-val ShapelessVersion = "2.3.3"
-val FS2Version = "1.0.4"
 val akkaVersion = "2.5.23"
 
 libraryDependencies ++= Seq(
